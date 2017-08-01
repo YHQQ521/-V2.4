@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+	<title>确认订单</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">确认订单</h1>
+			<div class="right"></div>
+		</header>
+		<div class="Self_Mod01">
+			<img src="../images/icon/location.svg">客房201
+		</div>
+		<div class="ConfirmOrderList">
+			<h3>您的订单</h3>
+			<dl><dt>采耳</dt><dd><span>x1</span><span>¥12</span></dd></dl>
+		</div>
+		<div class="page_title_01">订单详情</div>
+		<div class="ConfirmOrderDetail">
+			<dl><dt>手机号</dt><dd><input type="text" placeholder="必填"></dd></dl>
+			<dl><dt>手牌号</dt><dd><input type="text" placeholder="必填"></dd></dl>
+			<dl><dt>备注</dt><dd><textarea  rows="5" placeholder="选填，口味，偏好等要求"></textarea></dd></dl>
+			<dl><dt>客人数量</dt><dd><div class="shoppingCartList_mod01"><input type="button" class="LMinus"><span>1</span><input type="button" class="Ladd"></div></dd></dl>
+			<dl><dt>服务时间</dt><dd>
+			<select>
+			  <option value ="volvo">立即服务</option>
+			  <option value ="saab">立即服务</option>
+			  <option value="opel">立即服务</option>
+			  <option value="audi">立即服务</option>
+			</select></dd></dl>
+		</div>
+		<div class="pageFooter">
+			<div class="ShoppingCartBar02">
+				<img src="../images/icon/chosen.svg">确认选择
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/new.css">
+	<title>萌咖温泉馆兑换券</title>
+</head>
+<body>
+	<div class="page_box paymentSuccess_page exchange">
+		<header>
+			<h1 class="gbd_title fontWeight600">萌咖温泉馆兑换券</h1>
+		</header>
+		<div class="PaymentOrder_mod01 paymentSuccess_mod03" id="bg_white">
+			<dl>
+				<dt><img src="../images/icon/purchase.svg"></dt>
+				<dd id="fl">7月门票赠可乐（10张起）</dd>
+			</dl>
+			<dl>
+				<dt>赠送数量</dt>
+				<dd>1张</dd>
+			</dl>
+			<dl>
+				<dt>总价值</dt>
+				<dd>￥100</dd>
+			</dl>
+		</div>
+		<div class="ticket_info">
+			<p>您的朋友赠送了兑换券</p>
+			<span>萌咖温泉馆，欢迎您光临！</span>
+		</div>
+		<div class="btn">
+			<button class="get">已领取</button>
+		</div>
+		<p class="check">查看我领取的券</p>
+	</div>
+
+
+
+	<!--领取成功弹出框-->
+	<div class="wrap" id="layer">
+		<div class="get_success">
+				<dl id="bg" class="top">
+					<dt><img src="../images/icon/purchase_success1.svg"></dt>
+					<dd>领取成功！</dd>
+				</dl>
+			<div class="down_border">
+				<p class="focus_info">长按二维码，关注 <span class="col-highlight">[萌咖温泉馆]</span>公众号。从底部菜单进入<span class="col-highlight">[特惠团购]>[我的券]</span>，随时查看兑换券。
+				</p>	
+				<dl class="scan" id="scan">
+					<dt><img src="../images/photo/code.png"></dt>
+					<dd class="second"><img src="../images/photo/fingerprint.svg"></dd>
+				</dl>
+				<p class="no_scan">二维码关注不了？请点击此处</p>
+				<p class="wait">先等等吧</p>
+			</div>
+		</div>
+	</div>
+
+	<!--团购引导弹出框-->
+	<div class="wrap" id="layer1">
+		<div class="get_success">
+				<dl id="bg" class="top">
+					<dt><img src="../images/icon/convert.svg"></dt>
+					<dd>抢购兑换券</dd>
+				</dl>
+			<div class="down_border">
+				<p class="focus_info">长按二维码，关注 <span class="col-highlight">[萌咖温泉馆]</span>公众号。从底部菜单进入<span class="col-highlight">[特惠团购]</span>，立即抢购兑换券。
+				</p>	
+				<dl class="scan"  id="scan">
+					<dt><img src="../images/photo/code.png"></dt>
+					<dd class="second"><img src="../images/photo/fingerprint.svg"></dd>
+				</dl>
+				<p class="no_scan">二维码关注不了？请点击此处</p>
+				<p class="wait">先等等吧</p>
+			</div>
+		</div>
+	</div>
+
+	<!--无法领取弹出框-->
+		<div class="wrap" id="layer2">
+			<div class="Exchange_num">
+				<!-- <div class="wrong">X</div> -->
+				<p class="NoGet">无法领取</p>
+				<div class="GroupBuy_mod04">
+					<dl class="L-DL01">
+						<dt id="NoGet_info">很抱歉，赠送的券状态异常，领取失败。</dt>
+					</dl>
+				</div>
+				<button class="NoGet_btn">确定</button>
+			</div>
+		</div>
+</body>
+</html>

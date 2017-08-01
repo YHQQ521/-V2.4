@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+	<title>团购订单详情</title>
+</head>
+<body>
+	<div class="page_box">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">团购订单详情</h1>
+			<div class="right"><i class="text">回首页</i></div>
+		</header>
+
+		<!-- <div class="ServiceStatus_01">
+			<img src="../images/icon/ico-loudou.svg">订单支付成功，我们将尽快为您服务。
+		</div> -->
+		<div class="GroupBuyList01">
+			<dl id="border">
+				<dt class="img1">
+					<img src="../images/photo/2016042111432.jpg">
+					<span class="RestaurantMenuTag">人气<br/>热销</span>
+				</dt>
+				<dd id="js">
+					<h3 class="h31 text_overflow">7月门票赠可乐可乐可乐可乐可乐可乐（10张起）</h3>
+					<p class="fontColor">
+						<span>10件&nbsp; |</span><span>总价：¥480</span>
+					</p>
+					<img id="right1" src="../images/icon/right1.svg">
+				</dd>
+
+			</dl>
+		</div>
+		<div class="PaymentOrder_mod01 paymentSuccess_mod03 mt">
+			<dl><dt>订单编号</dt><dd>1000&nbsp;2333&nbsp;12344</dd></dl>
+			<dl><dt>下单时间</dt><dd>2016-04-27 19:22:01</dd></dl>
+			<dl><dt>订单状态</dt><dd>已退单</dd></dl>
+			<!-- <dl><dt>使用截止日期</dt><dd>2016-08-22</dd></dl> -->
+			<!-- <dl><dt>券号</dt><dd class="col-highlight fontWeight600">98913454114517</dd></dl> -->
+			<!-- <dl><dt>券号</dt><dd class="fontWeight600 col-Gray">已使用 <span class="line-through">98913454114517</span></dd></dl> -->
+			<dl><dt>联系手机</dt><dd>13454114517</dd></dl>
+			
+		</div>
+		<!-- <div class="pageFooter">
+			<div class="ShoppingCartBar02">
+				<img src="../images/icon/ShoppingCart.svg">继续购买
+			</div>
+		</div> -->
+		<div id="btn" style="text-align:center;">
+			<button>查看团购券</button>
+			<button>再买一次</button>
+		</div>
+	</div>
+</body>
+</html>

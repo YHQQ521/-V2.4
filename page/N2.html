@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/new.css">
+	<title>详情券</title>
+</head>
+<body>
+	<div class="page_box">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">详情券</h1>
+			<!-- <div class="right"><i class="text">回首页</i></div> -->
+		</header>
+		<div class="GroupBuyList01">
+			<dl id="border">
+				<dt class="img1">
+					<img src="../images/photo/2016042111432.jpg">
+					<span class="RestaurantMenuTag">人气<br/>热销</span>
+				</dt>
+				<dd id="js">
+					<h3 class="h31 text_overflow">7月门票赠可乐（10张起）</h3>
+					<p class="font_color">
+						<span>2016-09-30前使用</span>
+					</p>
+					<img id="right1" src="../images/icon/right1.svg">
+				</dd>
+
+			</dl>
+		</div>
+
+		<div class="code_info">
+			<p class="C_text">可消费的券<span class="C_num">3</span>张</p>
+			<hr class="C_line">
+			<p class="C_text">向商家出示以下二维码即可消费</p>
+			<dl>
+				<dt><img src="../images/photo/code.png"></dt>
+				<dd>如提示二维码过期，请<span>刷新</span></dd>
+			</dl>
+			<hr class="C_line">
+			<p class="C_text font_color2 strong">查看所有券号</p>
+		</div>
+
+		<div class="ItemDetailsTitle02">
+			使用需知
+		</div>
+		<div class="GroupBuy_mod03 mb4" id="pt0">
+			<dl>
+				<dt>有效期</dt>
+				<dd>▪ 2015-10-20 至 2016-05-31</dd>
+				<dt>预约信息</dt>
+				<dd>▪无需预约（如遇消费高峰时段可能需要您排队）</dd>
+				<dt>适用人数</dt>
+				<dd>▪每张团购券最多1人使用</dd>
+				<dt>适用人群</dt>
+				<dd>▪ 男女通用</dd>
+				<dd>▪ 特殊人群：过敏体质、传染疾病等身体不适人群不宜体验</dd>
+				<dt>规则提醒</dt>
+				<dd>▪ 需您当日一次性体验完毕所有项目</dd>
+				<dt>商家服务</dt>
+				<dd>▪ 免费提供wifi</dd>
+				<dd>▪ 免费提供洗浴用品、储存柜、器材</dd>
+				<dt>温馨提示</dt>
+				<dd>▪ 如需团购券发票，请您在消费是向收银台咨询</dd>
+			</dl>
+		</div>
+
+		<div class="give">
+			<dl>
+				<dt class="give_img"><img src="../images/icon/give.svg"></dt>
+				<dd>转送给朋友</dd>
+			</dl>
+		</div>
+	</div>
+
+
+	<!--领取成功弹出框-->
+		<div class="wrap" id="layer">
+			<div class="Exchange_num">
+				<div class="wrong">X</div>
+				<p class="E_text">可转赠的券<span class="E_num">3</span>张</p>
+				<div class="GroupBuy_mod04">
+					<dl class="L-DL01">
+						<dt id="font_light">转赠数量</dt>
+						<dd><input type="button"><span class="strong fix">1</span><input type="button"></dd>
+					</dl>
+				</div>
+				<button class="sure">确定</button>
+			</div>
+		</div>
+</body>
+</html>

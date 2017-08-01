@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/new.css">
+	<title>本订单券号</title>
+</head>
+<body>
+	<div class="page_box">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">本订单券号</h1>
+			<!-- <div class="right"><i class="text">回首页</i></div> -->
+		</header>
+		<p class="Text">本订单共<span class="Strong">20</span>张，其中<span class="Num">3</span>张可消费</p>
+		<div class="PaymentOrder_mod01 paymentSuccess_mod03 mt bt4" id="padding_ticket">
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="fontWeight600" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state1">可消费</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="line-through fontWeight600 col-Gray" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state2">已废弃</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="line-through fontWeight600 col-Gray" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state2">已转赠</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="line-through fontWeight600 col-Gray" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state2">已过期</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="fontWeight600" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state3">转赠中</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="fontWeight600" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state3">冻结</dd>
+			</dl>
+		</div>
+		<div class="give">
+			<dl>
+				<dt id="two_code"><img src="../images/icon/two_code.svg"></dt>
+				<dd>验券二维码</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>

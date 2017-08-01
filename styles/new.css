@@ -1,0 +1,130 @@
+/*N5萌咖温泉馆兑换券页面*/
+header .gbd_title{margin-left: 20%;font-weight: normal;}
+.exchange{padding-top: 4.5rem;}
+.exchange dl{padding: 1rem;}
+#fl{float: left;margin-left: 0.5rem;width:80%;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
+.btn{text-align: center;margin-top: 3rem;}
+.btn button{background:#FFAA0D;color:#fff;width: 70%;font-size: 18px;font-weight: normal;border:none;}
+.ticket_info{width: 100%;height: 4rem;text-align: center;margin:2rem 0;}
+.ticket_info p{color: #AEAEAE;margin: 1.5rem 0;}
+.ticket_info span{font-size: 16px;font-weight: 600;}
+
+
+/*N6萌咖温泉馆兑换券页面*/
+.btn .get{width: 70%;background:#DBDBDB;}
+.check{color: #FFAA0D;text-align: center;margin-top:1rem;}
+	/*领取成功弹出框*/
+	#layer{overflow:hidden;position:absolute;top:0;left: 0;z-index: 10000;display: none;} 
+	#layer1{overflow:hidden;position:absolute;top:0;left: 0;z-index: 10000;display: none;} 
+	#layer2{overflow:hidden;position:absolute;top:0;left: 0;z-index: 10000;display: none;} 
+	.wrap{width: 100%;height: 100%;background: rgba(0,0,0,0.4);}
+	.wrap .get_success{width: 80%;background: #F6F6F7;margin:10% auto;} 
+	.wrap .get_success .down_border{border:1px solid #DBDBDC;/*border-top:none;*/} 
+	#bg{background:url(../images/photo/bg.png) no-repeat;background-position:center center;}
+	.wrap .get_success .top{margin-top:30%;width: 100%;height: 11.5rem;text-align:center;z-index: 1000; }
+	.wrap .get_success .top dt{padding-top:18%;}
+	.wrap .get_success .top dt img{width:3rem;height:3rem;}
+	.wrap .get_success .top dd{color: #FCF7F9;font-size: 1.6rem;}
+	.wrap .get_success .top dd img{margin:7.672px 0}
+	.wrap .get_success .focus_info{color:#4A4A4A;width: 80%;margin: 8% auto;}
+	.wrap .get_success .scan{width: 80%;height:8rem;margin: 0 auto;}
+	.wrap .get_success .scan dt{float:left;margin-right: 5%;}
+	.wrap .get_success .scan img{width: 8rem;height:8rem;margin: 8% auto;}
+	.wrap .get_success .scan .second img{margin:7.672px 0;}
+	.wrap .get_success .no_scan{color:#888689;margin: 8% auto;text-align: center;font-size:1.2rem;}
+	.wrap .get_success .wait{color:#BEBCBA;margin: 8% auto;text-align: center;font-size:1.2rem;}
+	#bg_white{background: #fff;}
+	@media screen and (max-width: 320px){
+		#scan{width: 80%;}
+	}
+	@media screen and (min-width: 322px) and (max-width: 375px){
+		#scan{width: 71%;}
+	}
+	@media screen and (min-width: 377px) and (max-width: 420px){
+		#scan{width: 62%;}
+	}
+
+	/*无法领取弹出框*/
+	.NoGet{height:2rem;line-height:2rem;margin-top:1rem;font-size:1.8rem;font-weight:bold;}
+	#NoGet_info{text-align:left;margin-left:0.6rem;line-height:2rem;font-weight: normal;}
+	.NoGet_btn{width:100%;height:3.5rem;background:none;border:none;border-top:1px solid #ccc;color:#0868D5;font-size:1.5rem;font-weight:bold;}
+
+/*N6—2萌咖温泉馆兑换券页面(借鉴N6的“领取成功弹出框”)*/
+
+
+/*N1我的券列表页面(借鉴G8“团购订单详情”)*/
+
+
+/*N2我的券列表页面(借鉴G8“团购订单详情”)*/
+.code_info{width: 94%;margin: 0 auto;text-align:center;border:1px solid #DBDBDB;}
+.code_info .C_text{height:4rem;line-height:4rem;}
+.code_info .C_text .C_num{color: #FFAA0E;font-weight:bold;padding:0.5rem;}
+.code_info .C_line{width:90%;border-bottom:1px solid #dbdbdb;border-top:none;}
+.code_info dl{margin-bottom: 2rem;}
+.code_info dl dt img{width: 15rem;height: 15rem;}
+.code_info dl dd{margin:1rem 0;}
+.code_info dl dd span{font-weight: bold;padding:0.5rem;}
+.give{background:#fff;position:fixed;left:0;bottom:0;width:100%;height:4rem;text-align:center;}
+.give dt{width:30%;float: left;margin-left:30%;}
+.give dt img{width:4rem;height:4rem;}
+.give dd{font-weight:bold;float:left;width:30%;text-align:left;line-height:4rem;margin-left:-2.5rem;}
+.give .give_img{margin-left: 20%;}
+	/*N2我的券列表页面弹层N2-1页面*/
+	.Exchange_num{background:#fff;position:relative;width: 80%;margin: 40% auto;text-align: center;border:1px solid #DBDBDB;}
+	.Exchange_num .wrong{position:absolute;top: 0.5rem;right: 1rem;font-weight: bold;color: #B0ADAB;font-size:1.8rem;}
+	.Exchange_num .E_text{height:4rem;line-height:4rem;margin-top:10%;}
+	.Exchange_num .E_text .E_num{color: #FFAA0E;font-weight:bold;padding:0.5rem;}
+	.Exchange_num .E_operate{width: 70%;}
+	.Exchange_num .sure{width: 40%;background:#FFAA0D;border:none;margin: 10% 0;}
+.mb4{margin-bottom:4rem;}
+/*N2_2券号列表页面*/
+.img3{width:6rem;height:4rem;margin-right: 3%;}
+.Text{height:4rem;line-height:4rem;margin-left: 2rem;}
+.Text .Strong{font-weight:bold;padding:0.5rem;}
+.Text .Num{color: #FFAA0E;font-weight:bold;padding:0.5rem;}
+#ticket_num{float:left;margin-left:15%;}
+.state{border-radius:10%;line-height:2rem;width:5rem;height: 2rem;color: #fff;text-align:center;}
+.state1{background:#FFAA0D;}
+.state2{background:#C4C2C0;}/*N2_2券号列表页面*/
+.state3{color:#FFAA0D;}
+#padding_ticket dl{padding: 1.2rem 0;}
+.bg_blue{padding:0.5rem 2rem 1.5rem 2rem;width:90%;height:3rem;background:#9CCC65;color: #fff;font-weight: normal;}
+.mt6{margin-top:6rem;}
+#new_img{width:5rem;height:5rem;vertical-align: middle;}
+#new_img img{width: 80%;height: 80%;}
+.Height{height:4.5rem;}
+
+
+/*N3发起转赠页面*/
+.warm_warning{width: 90%;text-align: left;margin:2rem auto;color:#6b6b6b;}
+.warm_warning p{margin-bottom: 1rem;}
+.warm_warning ol li{margin: 0.5rem 0;}
+	/*N3弹层*/
+	.Info{position:absolute;top:0;right:0;width: 80%;margin: 0 auto;text-align: right;color:#fff;font-size:1.6rem;}
+	.Info dt{width: 5rem;height: 5rem;margin-left: 80%;}
+	.Info dt img{width: 100%;height: 100%}
+	.Info dd{width: 100%;height: 4rem;line-height:4rem;margin-top:-1rem;}
+	.Info dd img{width: 4rem;height: 4rem;vertical-align: middle;}
+
+
+/*N4转赠成功页面*/
+.transmit_success{width: 90%;margin:15% auto;text-align: center;background: #fff;}
+.transmit_success dl dt img{width: 4rem;height: 4rem;}
+.transmit_success dl dd:nth-of-type(1){font-size: 1.6rem;font-weight: bold;}
+.transmit_success dl dd:nth-of-type(2){color:#959395;padding: 1rem 0;}
+.mine_ticket{color:#fff;font-size:1.6rem;display:block;width: 70%;background:#FFAA0D;border:none;margin: 0 auto;}
+
+/*O8_1本订单券号页面*/
+#two_code{margin-left:23%;margin-right:0.5rem;}
+#two_code img{margin-top:0.5rem;width: 3rem;height: 3rem;vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/new.css">
+	<title>券号列表</title>
+</head>
+<body>
+	<div class="page_box">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">券号列表</h1>
+			<!-- <div class="right"><i class="text">回首页</i></div> -->
+		</header>
+
+		<div class="ServiceStatus_01 bg_blue" >
+			<!-- <img src="../images/icon/ico-loudou.svg"> -->
+			注意：同一种类的兑换券全部显示在本页面，无论通过团购购买或是转赠领取。
+		</div>
+		<div class="GroupBuyList01 mt6">
+			<dl id="border" class="Height">
+				<dt class="img1" id="new_img">
+					<img src="../images/icon/purchase.svg">
+				</dt>
+				<dd id="js">
+					<h3 class="h31 text_overflow">7月门票赠可乐（10张起）</h3>
+					<p class="fontColor">
+						<span>2016-09-30前使用</span>
+					</p>
+					<!-- <img id="right1" src="../images/icon/right1.svg"> -->
+				</dd>
+
+			</dl>
+		</div>
+		<p class="Text">共<span class="Strong">10</span>张，其中<span class="Num">3</span>张可消费</p>
+		<div class="PaymentOrder_mod01 paymentSuccess_mod03 mt" id="padding_ticket">
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="fontWeight600" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state1">可消费</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="line-through fontWeight600 col-Gray" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state2">已废弃</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="line-through fontWeight600 col-Gray" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state2">已转赠</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="line-through fontWeight600 col-Gray" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state2">已过期</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="fontWeight600" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state3">转赠中</dd>
+			</dl>
+			<dl>
+				<dt class="col-Gray">券号</dt>
+				<dd class="fontWeight600" id="ticket_num">9891&nbsp;3454&nbsp;517</dd>
+				<dd class="state state3">冻结</dd>
+			</dl>
+			
+		<!-- <div id="btn" style="text-align:center;">
+			<button>查看团购券</button>
+			<button>再买一次</button>
+		</div> -->
+	</div>
+</body>
+</html>

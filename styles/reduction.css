@@ -1,0 +1,49 @@
+/*S1页面满减样式*/
+.R_mt4{	margin-top:4rem;}
+.R_ServiceStatus_01{
+	display: none;
+	text-align: center;
+	padding:1rem 0 1rem 0;
+	background:#ffee99;
+	border-top:1px solid #dbdbdb;}
+.R_text{
+	display:inline-block;
+	width:70%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}	
+#R_img{
+	position: absolute;
+	right: .6rem;
+	top:1.4rem;
+	width: 1.1rem;
+	height: auto;
+}
+@media screen and (min-width:350px){
+	#R_img{margin-right: 5rem;right: -3rem;}
+}
+#R_info{
+	display: none;
+	position:fixed;
+	top:8.8rem;
+	padding:0.5rem 2rem .5rem 2rem;
+	width:90%;
+	height:auto;
+	font-weight: normal;
+	background:#fff;
+	border:1px solid #ccc;
+}
+.R_color{color:#000 !important;font-weight: normal;margin-right: 2px !important;}
+.R_ShoppingCartBar{	padding: 1rem 1px;}
+.R_ShoppingCartBar dt span{margin:0 6px 0 6px;font-size:14px;}
+@media screen and (min-width:350px){
+	.R_ShoppingCartBar{	padding: 1rem 10px 1rem 10px;}
+	.R_ShoppingCartBar dt span{margin:0 10px 0 10px;}
+}
+
+/*S2页面满减样式*/
+.R_ml5{margin-left:5px !important;}
+/*S6页面满减样式*/
+.RS6_line{border-top:1px solid #dbdbdb;}
+.RS6_color{color:red;}
